@@ -1,0 +1,6 @@
+cd /PATH
+dir
+cd ../../
+del /file
+findstr /s /n /i "text" <DIR> findstr /s /n /i "V_ENTITLREP" *.*
+findstr /s /n /i "text" <DIR> findstr /s /n /i "V_ENTITLREP" *.* > log_entlrep
